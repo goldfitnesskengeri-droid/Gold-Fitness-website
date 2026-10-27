@@ -233,6 +233,14 @@ export default function Footer({ currentPath = '/', onNavigate }: FooterProps) {
                 Privacy Policy
               </a>
               <span className="text-zinc-700">•</span>
+              <a
+                href="/terms"
+                onClick={(e) => handleLinkClick(e, '/terms')}
+                className="text-zinc-400 hover:text-gold-premium transition-colors underline-offset-4 hover:underline"
+              >
+                Terms
+              </a>
+              <span className="text-zinc-700">•</span>
               <a 
                 href="/integrations" 
                 onClick={(e) => handleLinkClick(e, '/integrations')}

@@ -64,6 +64,8 @@ const ReviewsPage = lazy(() => import('./components/seo-pages/ReviewsPage'));
 const FAQPage = lazy(() => import('./components/seo-pages/FAQPage'));
 const ContactKengeriPage = lazy(() => import('./components/seo-pages/ContactKengeriPage'));
 const PrivacyPolicyPage = lazy(() => import('./components/PrivacyPolicyPage'));
+const TermsPage = lazy(() => import('./components/TermsPage'));
+const MembershipPage = lazy(() => import('./components/MembershipPage'));
 const IntegrationsDashboard = lazy(() => import('./components/IntegrationsDashboard'));
 
 /**
@@ -582,7 +584,7 @@ export default function App() {
       case '/gym-membership-kengeri':
         return (
           <Suspense fallback={<SectionSkeleton height="h-screen" />}>
-            <AboutPage onNavigate={navigate} />
+            <MembershipPage onNavigate={navigate} />
           </Suspense>
         );
 
@@ -600,6 +602,12 @@ export default function App() {
         return (
           <Suspense fallback={<SectionSkeleton height="h-screen" />}>
             <PrivacyPolicyPage onNavigate={navigate} />
+          </Suspense>
+        );
+      case '/terms':
+        return (
+          <Suspense fallback={<SectionSkeleton height="h-screen" />}>
+            <TermsPage onNavigate={navigate} />
           </Suspense>
         );
       case '/integrations':

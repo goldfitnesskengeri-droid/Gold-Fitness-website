@@ -1,13 +1,13 @@
 {
   "generator": "Dhanus Gold Fitness Dynamic App.tsx Sitemap Crawler",
-  "crawledAt": "2026-10-27T13:14:43.285Z",
+  "crawledAt": "2026-10-27T13:37:42.616Z",
   "baseUrl": "https://www.dhanusgoldfitness.com",
   "counts": {
-    "totalDiscoveredRoutes": 30,
-    "indexableCanonicalRoutes": 17,
+    "totalDiscoveredRoutes": 31,
+    "indexableCanonicalRoutes": 18,
     "indexableAliasRoutes": 9,
-    "totalIndexableRoutes": 26,
-    "totalXmlUrlNodes": 17,
+    "totalIndexableRoutes": 27,
+    "totalXmlUrlNodes": 18,
     "excludedPrivateRoutes": 4
   },
   "languages": [
@@ -303,7 +303,7 @@
     {
       "path": "/gym-membership-kengeri",
       "canonicalPath": "/gym-membership-kengeri",
-      "component": "AboutPage",
+      "component": "MembershipPage",
       "isAlias": false,
       "isExcluded": false,
       "category": "service",
@@ -312,7 +312,7 @@
       "lastmod": "2026-10-27",
       "titleEn": "Gym Membership Plans & Pricing in Kengeri | Dhanus Gold",
       "titleKn": "ಜಿಮ್ ಸದಸ್ಯತ್ವ ಶುಲ್ಕ ಮತ್ತು ಯೋಜನೆಗಳು ಕೆಂಗೇರಿ",
-      "descriptionEn": "Affordable 1-month, 3-month, 6-month, and annual gym membership packages.",
+      "descriptionEn": "Compare gym membership and personal training plans in Kengeri. Book a free trial first.",
       "descriptionKn": "ಕೆಂಗೇರಿಯಲ್ಲಿ ಕೈಗೆಟುಕುವ ಮಾಸಿಕ, ತ್ರೈಮಾಸಿಕ ಮತ್ತು ವಾರ್ಷಿಕ ಜಿಮ್ ಸದಸ್ಯತ್ವ ಯೋಜನೆಗಳು."
     },
     {
@@ -404,6 +404,21 @@
       "titleKn": "ಗೌಪ್ಯತೆ ಮತ್ತು ನಿಯಮಗಳು | ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್",
       "descriptionEn": "Information collection and communication standards for Dhanus Gold Fitness.",
       "descriptionKn": "ಮಾಹಿತಿ ಸಂಗ್ರಹ ಮತ್ತು ಸಂವಹನ ಮಾನದಂಡಗಳ ವಿವರಣೆ."
+    },
+    {
+      "path": "/terms",
+      "canonicalPath": "/terms",
+      "component": "TermsPage",
+      "isAlias": false,
+      "isExcluded": false,
+      "category": "legal",
+      "changefreq": "monthly",
+      "priority": 0.5,
+      "lastmod": "2026-10-27",
+      "titleEn": "Terms of Service | Dhanus Gold Fitness Kengeri",
+      "titleKn": "ಸೇವಾ ನಿಯಮಗಳು | ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್",
+      "descriptionEn": "Terms for using the Dhanus Gold Fitness website and joining the gym in Kengeri.",
+      "descriptionKn": "ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್ ವೆಬ್‌ಸೈಟ್ ಬಳಕೆ ಮತ್ತು ಜಿಮ್ ಸೇರ್ಪಡೆಯ ನಿಯಮಗಳು."
     },
     {
       "path": "/integrations",

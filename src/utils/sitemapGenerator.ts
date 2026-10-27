@@ -226,7 +226,7 @@ export const ROUTE_LOCALIZATION_DICTIONARY: Record<
     changefreq: 'monthly',
     titleEn: 'Gym Membership Plans & Pricing in Kengeri | Dhanus Gold',
     titleKn: 'ಜಿಮ್ ಸದಸ್ಯತ್ವ ಶುಲ್ಕ ಮತ್ತು ಯೋಜನೆಗಳು ಕೆಂಗೇರಿ',
-    descriptionEn: 'Affordable 1-month, 3-month, 6-month, and annual gym membership packages.',
+    descriptionEn: 'Compare gym membership and personal training plans in Kengeri. Book a free trial first.',
     descriptionKn: 'ಕೆಂಗೇರಿಯಲ್ಲಿ ಕೈಗೆಟುಕುವ ಮಾಸಿಕ, ತ್ರೈಮಾಸಿಕ ಮತ್ತು ವಾರ್ಷಿಕ ಜಿಮ್ ಸದಸ್ಯತ್ವ ಯೋಜನೆಗಳು.',
   },
   '/contact': {
@@ -273,6 +273,15 @@ export const ROUTE_LOCALIZATION_DICTIONARY: Record<
     titleKn: 'ಗೌಪ್ಯತಾ ನೀತಿ & ಡೇಟಾ ಭದ್ರತೆ | ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್',
     descriptionEn: 'Official privacy policy, WhatsApp communication consent, and personal data protection terms.',
     descriptionKn: 'ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್‌ನ ಅಧಿಕೃತ ಗೌಪ್ಯತಾ ನೀತಿ ಮತ್ತು ಗ್ರಾಹಕರ ಮಾಹಿತಿ ರಕ್ಷಣೆ ನಿಯಮಗಳು.',
+  },
+  '/terms': {
+    category: 'legal',
+    priority: 0.5,
+    changefreq: 'monthly',
+    titleEn: 'Terms of Service | Dhanus Gold Fitness Kengeri',
+    titleKn: 'ಸೇವಾ ನಿಯಮಗಳು | ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್',
+    descriptionEn: 'Terms for using the Dhanus Gold Fitness website and joining the gym in Kengeri.',
+    descriptionKn: 'ಧನುಸ್ ಗೋಲ್ಡ್ ಫಿಟ್ನೆಸ್ ವೆಬ್‌ಸೈಟ್ ಬಳಕೆ ಮತ್ತು ಜಿಮ್ ಸೇರ್ಪಡೆಯ ನಿಯಮಗಳು.',
   },
   '/privacy': {
     category: 'legal',
@@ -486,8 +495,7 @@ export function generateSitemapXml(
 
   // Aliases (e.g. /privacy, /contact-kengeri, /body-transformations) canonicalise to another URL,
   // so only canonical routes belong in the sitemap.
-  // /gym-membership-kengeri renders the About page and canonicalises to /about.
-  const NON_CANONICAL = new Set(['/gym-membership-kengeri']);
+  const NON_CANONICAL = new Set<string>();
   const crawledRoutes = crawlAppRoutes().filter((r) => !r.isExcluded && !r.isAlias && !NON_CANONICAL.has(r.path));
 
   const xmlEntries: string[] = [];

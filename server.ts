@@ -750,6 +750,18 @@ Sitemap: ${siteUrl}/sitemap.xml
       image: "https://res.cloudinary.com/dnnfzhrbd/image/upload/v1782844122/facebook_profile_ijvgug.png",
       url: "https://www.dhanusgoldfitness.com/privacy-policy",
     },
+    "/gym-membership-kengeri": {
+      title: "Gym Membership Plans in Kengeri | Dhanus Gold Fitness",
+      desc: "Compare gym membership and personal training plans at Dhanus Gold Fitness, Hoysala Circle, Kengeri Satellite Town, Bengaluru. Book a free trial first.",
+      image: "https://res.cloudinary.com/dnnfzhrbd/image/upload/v1782845589/_A0A5520_ewwv0e.jpg",
+      url: "https://www.dhanusgoldfitness.com/gym-membership-kengeri",
+    },
+    "/terms": {
+      title: "Terms of Service | Dhanus Gold Fitness Kengeri Bengaluru",
+      desc: "Terms for using the Dhanus Gold Fitness website and joining our gym in Kengeri Satellite Town, Bengaluru.",
+      image: "https://res.cloudinary.com/dnnfzhrbd/image/upload/v1782844122/facebook_profile_ijvgug.png",
+      url: "https://www.dhanusgoldfitness.com/terms",
+    },
     "/integrations": {
       title: "Webhooks & API Integrations Hub | Dhanus Gold Fitness",
       desc: "Webhook endpoints, Meta lead ads integration, WhatsApp API callback configuration, and Firestore data pipelines.",
@@ -769,7 +781,6 @@ Sitemap: ${siteUrl}/sitemap.xml
     "/bodybuilding-gym-kengeri": "/muscle-building-kengeri",
     "/strength-training-kengeri": "/muscle-building-kengeri",
     "/zumba-classes-kengeri": "/group-fitness",
-    "/gym-membership-kengeri": "/about",
     "/gym-services-kengeri": "/training",
     "/body-transformations": "/transformations",
     "/contact-gym-kengeri": "/contact",
