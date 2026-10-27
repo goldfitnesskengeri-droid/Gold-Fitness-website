@@ -11,6 +11,7 @@ import ScrollProgressBar from './components/ScrollProgressBar';
 import CustomCursor from './components/CustomCursor';
 import ErrorBoundary from './components/ErrorBoundary';
 import CookieConsent, { readConsent } from './components/CookieConsent';
+import ServicesShowcase, { ServiceTicker } from './components/ServicesShowcase';
 import { useLanguage } from './LanguageContext';
 import { updateMetaTags, clearRouteSchemas } from './lib/seo';
 import { getSupabaseClient, adminRoleFor } from './lib/supabase';
@@ -642,7 +643,11 @@ export default function App() {
           <>
             {/* Hero Landing & Key Metrics (Eager loaded for instant LCP) */}
             <Hero />
-            
+
+            {/* Scrolling services ticker and services grid */}
+            <ServiceTicker />
+            <ServicesShowcase />
+
             {/* Premium Gym Facilities & Amenities */}
             <Features onNavigate={navigate} />
 
