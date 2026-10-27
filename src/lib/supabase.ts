@@ -1,8 +1,8 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 // Supabase project credentials
-export const SUPABASE_URL = (import.meta as any).env?.VITE_SUPABASE_URL || 'https://tdllxiresvvucorpmqzn.supabase.co';
-export const SUPABASE_ANON_KEY = (import.meta as any).env?.VITE_SUPABASE_ANON_KEY || 'sb_publishable_P7QW1ywoNuu0PIJQa8Rw4w_OSalnWpf';
+export const SUPABASE_URL = (import.meta as any).env?.VITE_SUPABASE_URL || 'https://lkylzmlzhlhublwrvfmi.supabase.co';
+export const SUPABASE_ANON_KEY = (import.meta as any).env?.VITE_SUPABASE_ANON_KEY || 'sb_publishable_uHUE7ldD5Bo8b4x3C_129w_fh6oasnj';
 
 let _supabaseClient: SupabaseClient | null = null;
 
