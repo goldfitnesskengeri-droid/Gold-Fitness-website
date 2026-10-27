@@ -128,7 +128,7 @@ export default function Hero() {
                 { icon: FacebookLogo, href: CONTACT_INFO.social.facebookPage, label: 'Facebook', borderHover: 'hover:border-[#1877F2] hover:shadow-[0_0_20px_rgba(24,119,242,0.4)]' },
                 { icon: WhatsAppLogo, href: CONTACT_INFO.social.whatsapp, label: 'WhatsApp (+919740018911)', borderHover: 'hover:border-[#25D366] hover:shadow-[0_0_20px_rgba(37,211,102,0.4)]' },
                 { icon: GoogleMapsLogo, href: CONTACT_INFO.social.map, label: 'Google Maps Location', borderHover: 'hover:border-[#4285F4] hover:shadow-[0_0_20px_rgba(66,133,244,0.4)]' },
-                { icon: GmailLogo, href: CONTACT_INFO.social.email, label: 'Gmail (dhanusgoldfitness@gmail.com)', borderHover: 'hover:border-[#EA4335] hover:shadow-[0_0_20px_rgba(234,67,53,0.4)]' },
+                { icon: GmailLogo, href: CONTACT_INFO.social.email, label: 'Gmail (goldfitnesskengeri@gmail.com)', borderHover: 'hover:border-[#EA4335] hover:shadow-[0_0_20px_rgba(234,67,53,0.4)]' },
                 { icon: WebsiteLogo, href: CONTACT_INFO.social.website, label: 'Official Website', borderHover: 'hover:border-[#FFC400] hover:shadow-[0_0_20px_rgba(255,196,0,0.4)]' }
               ].map((social, i) => {
                 const IconComponent = social.icon;

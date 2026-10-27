@@ -287,7 +287,7 @@ export const OFFICIAL_SOCIAL_LINKS: SocialLinkItem[] = [
   {
     name: 'Email (Gmail)',
     url: CONTACT_INFO.social.email,
-    ariaLabel: 'Email Dhanus Gold Fitness (dhanusgoldfitness@gmail.com)',
+    ariaLabel: 'Email Dhanus Gold Fitness (goldfitnesskengeri@gmail.com)',
     icon: <GmailLogo className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />,
     brandColor: 'hover:border-[#EA4335] hover:shadow-[0_0_15px_rgba(234,67,53,0.35)]',
   },

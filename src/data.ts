@@ -6,7 +6,7 @@ export const CONTACT_INFO = {
   phoneHref: 'tel:+919740018911',
   whatsappNumber: '919740018911', // No spaces, plus sign, or dashes for API
   whatsappUrl: 'https://wa.me/919740018911',
-  email: 'dhanusgoldfitness@gmail.com',
+  email: 'goldfitnesskengeri@gmail.com',
   websiteUrl: 'https://www.dhanusgoldfitness.com',
   privacyPolicyUrl: '/privacy-policy',
   callbackUrl: '/api/callback',
@@ -42,7 +42,7 @@ export const CONTACT_INFO = {
     facebookPage: 'https://www.facebook.com/people/Dhanus-Goldfitness/100079558913150/',
     facebookProfile: 'https://www.facebook.com/people/Dhanus-Goldfitness/100079558913150/',
     facebook: 'https://www.facebook.com/people/Dhanus-Goldfitness/100079558913150/',
-    email: 'mailto:dhanusgoldfitness@gmail.com',
+    email: 'mailto:goldfitnesskengeri@gmail.com',
     website: 'https://www.dhanusgoldfitness.com',
     map: 'https://maps.app.goo.gl/yB41yXc1GgFDYtwv5',
     googleMaps: 'https://maps.app.goo.gl/yB41yXc1GgFDYtwv5',
